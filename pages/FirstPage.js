@@ -22,6 +22,11 @@ const FirstPage = ({ navigation }) => {
             }}>
             Welcome to my resume app!
           </Text>
+          <Text  style={{
+              fontSize: 12,
+              textAlign: 'center',
+              marginBottom: 16,
+            }}> This app was built to demo a reume in mobile app form</Text>
           <Button
             onPress={() => navigation.navigate('SecondPage')}
             title="Go to About Me"
@@ -30,6 +35,7 @@ const FirstPage = ({ navigation }) => {
             onPress={() => navigation.navigate('ThirdPage')}
             title="View Projects"
           />
+
         </View>
         <Text style={{ fontSize: 18, textAlign: 'center', color: 'grey' }}>
           Jonathan Gan

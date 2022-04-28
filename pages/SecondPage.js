@@ -23,6 +23,42 @@ const SecondPage = ({ navigation }) => {
             About Me
           </Text>
 
+          <Text  
+          style={{
+              fontSize: 12,
+              textAlign: 'center',
+              marginBottom: 16,
+            }}> 
+            I am a react native software engineer ⚛️ 
+            </Text>
+
+            <Text  
+          style={{
+              fontSize: 12,
+              textAlign: 'center',
+              marginBottom: 16,
+            }}> 
+            I enjoy Music, Food, Photography, & Fast Cars 🏎
+            </Text>
+
+            <Text  
+          style={{
+              fontSize: 12,
+              textAlign: 'center',
+              marginBottom: 16,
+            }}> 
+            I bring energy, resources & skills of all sorts to the table 📊
+            </Text>
+
+            <Text  
+          style={{
+              fontSize: 12,
+              textAlign: 'center',
+              marginBottom: 16,
+            }}> 
+            and I need a job 📩
+            </Text>
+
           {/* <Button
             title="Go to First Page"
             onPress={() => navigation.navigate('FirstPage')}

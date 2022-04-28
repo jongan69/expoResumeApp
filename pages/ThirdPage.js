@@ -22,18 +22,8 @@ const ThirdPage = ({ navigation }) => {
             }}>
             Projects
           </Text>
-
-          {/* <Button
-            onPress={() => navigation.navigate('FirstPage')}
-            title="Go to First Page"
-          />
-          <Button
-            onPress={() => navigation.navigate('SecondPage')}
-            title="Go to Second Page"
-          /> */}
-
         </View>
-        <Text style={{ fontSize: 18, textAlign: 'center', color: 'grey' }}>
+       <Text style={{ fontSize: 18, textAlign: 'center', color: 'grey' }}>
           Jonathan Gan
         </Text>
         <Text style={{ fontSize: 16, textAlign: 'center', color: 'grey' }}>
